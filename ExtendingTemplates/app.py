@@ -8,7 +8,7 @@ app = Flask(__name__)    #This is creating a new Flask object
 def default():
     return render_template("index.html", name = "index", title = "HOME PAGE")			#The argument should be in templates folder
 
-#hahahahahaha
+#ahahahaha
 @app.route('/index')          							#This is the main URL
 def index():
     return render_template("index.html", name = "index", title = "HOME PAGE")			#The argument should be in templates folder
